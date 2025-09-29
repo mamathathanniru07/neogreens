@@ -1,0 +1,90 @@
+.comparison-table {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow: scroll;
+  tbody {
+    width: 100%;
+    overflow: scroll;
+  }
+  tr {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    overflow: scroll;
+  }
+  td {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+.product-comparision-section {
+  width: 100%;
+}
+
+.comp-title {
+  width: 40%;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.neo-greens-style {
+  background-color: #efecd6;
+}
+
+.other-brands {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.table-responsive {
+    overflow: scroll;
+}
+
+.nutrients-wrap {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+.buy-now-button {
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 40px;
+  color: #2c4143;
+  display: flex;
+  align-self: center;
+}
+
+@media screen and (max-width: 425px) {
+  .comparison-table {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    tbody {
+      width: 100%;
+    }
+    td {
+      width: 100px;
+      padding: 20px;
+    }
+    
+  }
+}

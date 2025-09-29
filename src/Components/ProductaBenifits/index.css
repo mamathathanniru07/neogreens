@@ -1,0 +1,125 @@
+.product-benifits-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #2c4143;
+}
+.product-benifits-left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  padding: 20px;
+}
+.product-benifits-right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+}
+.product-left-image {
+  max-height: 500px;
+  width: 100%;
+}
+
+.prodcut-benifit-images {
+  width: auto;
+}
+
+.beifit-title-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.desctiption-container {
+  text-align: left;
+  h5 {
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}
+
+.product-benfit-title {
+  h2 {
+    font-size: 40px;
+    text-align: left;
+  }
+}
+
+.prodcut-benifit-right-images {
+  width: 100%;
+}
+
+.benifit-description {
+  font-size: 18px;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.benifit-card {
+  padding: 10px;
+  box-shadow: 5px 2px 13px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.buy-now-button {
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-self: flex-start;
+  justify-self: flex-start;
+  display: flex;
+}
+
+.benifits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.benifits-below-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #efecd6;
+;
+}
+
+
+@media screen and (max-width:425px) {
+    .product-benifits-section {
+        flex-direction: column;
+    }
+
+    .product-benifits-left-section, .product-benifits-right-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .benifits-list {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
