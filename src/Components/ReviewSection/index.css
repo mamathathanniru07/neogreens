@@ -86,6 +86,7 @@
     gap: 10px;
     overflow-x: scroll;
     justify-content: flex-start;
+    box-sizing: border-box;
   }
   /* width: 100%; */
   .bottom-container {
